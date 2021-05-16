@@ -15,7 +15,7 @@ import coralYoshii from './assets/coral-reef-hiroko-yoshii.jpg';
 import coralQui from './assets/coral-reef-q-u-i.jpg';
 import coralManoa from './assets/coral-reef-sandy-manoa.jpg';
 
-export const Fullpage = () => {
+export const App = () => {
   const ref = useRef<any>(null);
   const [hideHeader, setHideHeader] = useState(false);
 
